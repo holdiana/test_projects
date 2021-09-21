@@ -1,10 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Public+Sans:wght@500;700&display=swap");
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	font-family: $font_primary, sans-serif;
+	color: $text_color-gray;
+	font-size: $font_size_normal;
 }
 
 h1 {
 	color: aqua;
 	font-size: 40px;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
 }
