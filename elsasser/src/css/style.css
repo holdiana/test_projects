@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #1652ac;
   font-family: "Public Sans";
   font-weight: 700;
@@ -39,6 +40,14 @@ h2 {
   line-height: 200%;
   letter-spacing: 2.4px;
   padding: 33px 0 18px 0;
+}
+
+h3 {
+  font-size: 1.17rem;
+  color: #ffffff;
+  letter-spacing: 2.4px;
+  text-align: left;
+  margin: 10px 0 30px 35px;
 }
 
 a {
@@ -109,4 +118,28 @@ p {
 
 p.fokus {
   padding-top: 15px;
+}
+
+.standarts {
+  margin: 110px 0 0 0;
+}
+
+.standarts__image {
+  background-image: url("../images/asv4.jpg");
+  background-size: cover;
+  height: 728px;
+}
+
+.standarts__text {
+  background: -webkit-gradient(linear, left top, left bottom, from(#163da2), to(#003584));
+  background: linear-gradient(180deg, #163da2 0%, #003584 100%);
+  height: auto;
+  color: #ffffff;
+  padding: 151px 20px 120px 119px;
+}
+
+.standarts p {
+  max-width: 496px;
+  padding-bottom: 16px;
+  margin-left: 35px;
 }

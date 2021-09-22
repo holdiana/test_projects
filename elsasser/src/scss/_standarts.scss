@@ -1,0 +1,19 @@
+.standarts {
+	margin: 110px 0 0 0;
+	&__image {
+		background-image: url("../images/asv4.jpg");
+		background-size: cover;
+		height: 728px;
+	}
+	&__text {
+		background: linear-gradient(180deg, #163da2 0%, #003584 100%);
+		height: auto;
+		color: #ffffff;
+		padding: 151px 20px 120px 119px;
+	}
+	& p {
+		max-width: 496px;
+		padding-bottom: 16px;
+		margin-left: 35px;
+	}
+}
