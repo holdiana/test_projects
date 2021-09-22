@@ -1,0 +1,30 @@
+.vorteile {
+	padding: 67px 0 0 0;
+	background-color: $bg_color;
+	&__items {
+		width: 394px;
+		height: 136px;
+		border-radius: 4px;
+		background-color: #ffffff;
+		display: flex;
+		align-items: baseline;
+		justify-content: baseline;
+		margin: 4.5px;
+		padding: 25px 0 57px 40px;
+		box-shadow: offset 0 1 rgba(0, 0, 0, 0.15);
+		@media (max-width: 576px) {
+			width: 358px;
+		}
+	}
+	&.row {
+		@media (max-width: 992px) {
+			justify-content: space-between;
+		}
+	}
+	&__icon {
+		justify-content: baseline;
+	}
+	&__text {
+		margin-left: 35px;
+	}
+}

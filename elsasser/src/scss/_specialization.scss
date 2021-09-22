@@ -1,0 +1,17 @@
+.specialization {
+	padding: 91px 0 0 0;
+
+	&__title {
+		font-size: 1.17rem;
+		text-transform: uppercase;
+		max-width: 426px;
+		font-weight: 700;
+		padding-bottom: 21px;
+		letter-spacing: 2.5px;
+	}
+	& p {
+		max-width: 556px;
+		padding-bottom: 15px;
+		margin: 0;
+	}
+}

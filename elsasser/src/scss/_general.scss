@@ -13,7 +13,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	color: $primary_color;
 	font-family: $font_article;
 	font-weight: 700;
@@ -43,6 +44,12 @@ h3 {
 	letter-spacing: 2.4px;
 	text-align: left;
 	margin: 10px 0 30px 35px;
+}
+h4 {
+	letter-spacing: 2.4px;
+	font-size: 1.64rem;
+	padding-bottom: 42px;
+	color: #020303;
 }
 a {
 	text-decoration: none;

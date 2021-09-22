@@ -14,7 +14,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #1652ac;
   font-family: "Public Sans";
   font-weight: 700;
@@ -48,6 +49,13 @@ h3 {
   letter-spacing: 2.4px;
   text-align: left;
   margin: 10px 0 30px 35px;
+}
+
+h4 {
+  letter-spacing: 2.4px;
+  font-size: 1.64rem;
+  padding-bottom: 42px;
+  color: #020303;
 }
 
 a {
@@ -141,5 +149,73 @@ p.fokus {
 .standarts p {
   max-width: 496px;
   padding-bottom: 16px;
+  margin-left: 35px;
+}
+
+.specialization {
+  padding: 91px 0 0 0;
+}
+
+.specialization__title {
+  font-size: 1.17rem;
+  text-transform: uppercase;
+  max-width: 426px;
+  font-weight: 700;
+  padding-bottom: 21px;
+  letter-spacing: 2.5px;
+}
+
+.specialization p {
+  max-width: 556px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.vorteile {
+  padding: 67px 0 0 0;
+  background-color: #fbfbfc;
+}
+
+.vorteile__items {
+  width: 394px;
+  height: 136px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  margin: 4.5px;
+  padding: 25px 0 57px 40px;
+  -webkit-box-shadow: offset 0 1 rgba(0, 0, 0, 0.15);
+          box-shadow: offset 0 1 rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 576px) {
+  .vorteile__items {
+    width: 358px;
+  }
+}
+
+@media (max-width: 992px) {
+  .vorteile.row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.vorteile__icon {
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.vorteile__text {
   margin-left: 35px;
 }
