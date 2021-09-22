@@ -1,0 +1,25 @@
+main {
+	background-color: #ffffff;
+	margin: 23px 0 0 95px;
+}
+
+.main {
+	&__description {
+		padding: 52px 0 60px 4px;
+		line-height: 190%;
+		font-weight: 600;
+		max-width: 500px;
+		letter-spacing: -0.6px;
+	}
+	&__img {
+		padding-top: 30px;
+	}
+}
+p {
+	max-width: 477px;
+	margin-left: 15px;
+	line-height: 190%;
+	&.fokus {
+		padding-top: 15px;
+	}
+}

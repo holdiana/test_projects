@@ -11,9 +11,30 @@ body {
 	font-size: $font_size_normal;
 }
 
+h1,
+h2 {
+	color: $primary_color;
+	font-family: $font_article;
+	font-weight: 700;
+}
 h1 {
-	color: aqua;
-	font-size: 40px;
+	font-size: 2.82rem;
+	padding: 69px 0 35px 0;
+	line-height: 4.39rem;
+	letter-spacing: 1.2px;
+}
+@media (max-width: 992px) {
+	h1 {
+		font-size: 2rem;
+		line-height: 2.5rem;
+		max-width: 300px;
+	}
+}
+h2 {
+	font-size: 1.17rem;
+	line-height: 200%;
+	letter-spacing: 2.4px;
+	padding: 33px 0 18px 0;
 }
 a {
 	text-decoration: none;
@@ -21,4 +42,9 @@ a {
 
 li {
 	list-style-type: none;
+}
+.gray-line {
+	width: 227px;
+	height: 7px;
+	background-color: #edeff3;
 }
