@@ -1,17 +1,20 @@
 .vorteile {
-	padding: 67px 0 0 0;
+	padding: 67px 0 82px 0;
 	background-color: $bg_color;
+	&__wrapper {
+		margin-bottom: 57px;
+	}
 	&__items {
 		width: 394px;
 		height: 136px;
 		border-radius: 4px;
-		background-color: #ffffff;
+		background-color: $white-color;
 		display: flex;
 		align-items: baseline;
 		justify-content: baseline;
 		margin: 4.5px;
 		padding: 25px 0 57px 40px;
-		box-shadow: offset 0 1 rgba(0, 0, 0, 0.15);
+		box-shadow: 0px 1px rgba(0, 0, 0, 0.15);
 		@media (max-width: 576px) {
 			width: 358px;
 		}
@@ -26,5 +29,98 @@
 	}
 	&__text {
 		margin-left: 35px;
+	}
+}
+
+.hauptmerkmale {
+	&__wrapper {
+		max-width: 1200px;
+		padding: 43px 0 71px 0;
+		background-color: $white-color;
+		border-radius: 4px;
+		box-shadow: 0px, 1px rgba(0, 0, 0, 0.15);
+		& h4 {
+			padding-bottom: 25px;
+			letter-spacing: 4.42px;
+			font-size: 1.64rem;
+		}
+		& li {
+			margin: 35px 10px;
+			line-height: 36px;
+			letter-spacing: -0.5px;
+			& span {
+				margin-right: 15px;
+			}
+		}
+		&__list {
+			max-width: 546px;
+		}
+	}
+}
+.slider {
+	&__block {
+		padding: 31px 0;
+	}
+}
+// .carousel-control-prev-icon {
+// 	background-image: url("../icons/arrow_left.svg");
+// 	background-size: auto;
+// 	@media (max-width: 992px) {
+// 		display: none;
+// 	}
+// }
+// .carousel-control-next-icon {
+// 	background-image: url("../icons/arrow_right.svg");
+// 	background-size: auto;
+// 	@media (max-width: 992px) {
+// 		display: none;
+// 	}
+// }
+
+.slider__button {
+	display: flex;
+	padding: 29px 0 78px 0;
+	@media (max-width: 567px) {
+		display: none;
+	}
+}
+.button__arrow {
+	width: 126px;
+	height: 78px;
+	background-color: $white-color;
+	padding: 19px 42px;
+	border-radius: 8px;
+	box-shadow: 0px, 0px rgba(64, 68, 75, 0.14);
+	margin: 0 18px;
+}
+.slider__dots {
+	& span {
+		width: 12px;
+		height: 12px;
+		background-color: #80abff;
+		border-radius: 50%;
+		display: inline-block;
+		margin-top: 29px;
+		&:first-child {
+			background-color: #0045ac;
+		}
+		@media (max-width: 567px) {
+			justify-content: center;
+		}
+	}
+}
+
+.site__buttons {
+	max-width: 395px;
+	height: auto;
+	text-align: center;
+	background: linear-gradient(#0c5cd6 100%, rgba(0, 56, 140, 0) 0%);
+	box-shadow: 0px, 1px rgba(0, 0, 0, 0.21);
+	border-radius: 3px;
+	margin: 4px;
+	padding-top: 12px;
+	text-transform: uppercase;
+	@media (max-width: 576px) {
+		justify-content: space-between;
 	}
 }
