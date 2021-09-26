@@ -1,19 +1,41 @@
 .standarts {
 	margin: 110px 0 0 0;
+	@media (max-width: 991.98px) {
+		margin: 80px 0 0 0;
+	}
+	@media (max-width: 575.98px) {
+		margin: 50px 0 0 0;
+	}
 	&__image {
 		background-image: url("../images/asv4.jpg");
 		background-size: cover;
 		height: 728px;
+		@media (max-width: 575.98px) {
+			height: 505px;
+		}
 	}
 	&__text {
 		background: linear-gradient(180deg, #163da2 0%, #003584 100%);
 		height: auto;
 		color: $white-color;
 		padding: 151px 20px 120px 119px;
+		@media (max-width: 1199.98px) {
+			padding: 120px 20px 80px 100px;
+		}
+		@media (max-width: 991.98px) {
+			padding: 80px 20px 40px 40px;
+			justify-content: center;
+		}
+		@media (max-width: 575.98px) {
+			padding: 39px 16px 20px 16px;
+		}
 	}
 	& p {
 		max-width: 496px;
 		padding-bottom: 16px;
 		margin-left: 35px;
+		@media (max-width: 991.98px) {
+			margin: 0 auto;
+		}
 	}
 }

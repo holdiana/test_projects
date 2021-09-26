@@ -11,6 +11,14 @@ body {
 	font-size: $font_size_normal;
 	font-weight: 400;
 }
+.container {
+	@media (max-width: 991.98px) {
+		margin: 0 80px;
+	}
+	@media (max-width: 575.98px) {
+		margin: 0 16px 0 5px;
+	}
+}
 
 h1,
 h2,
@@ -25,19 +33,29 @@ h1 {
 	padding: 69px 0 35px 0;
 	line-height: 4.39rem;
 	letter-spacing: 1.2px;
-}
-@media (max-width: 992px) {
-	h1 {
+	@media (max-width: 767.9px) {
 		font-size: 2rem;
 		line-height: 2.5rem;
-		max-width: 300px;
 	}
+	@media (max-width: 575.98px) {
+		text-align: center;
+		padding: 56px 0 30px 0;
+		margin: 0;
+		letter-spacing: -0.4px;
+	}
+}
+@media (max-width: 991.98px) {
 }
 h2 {
 	font-size: 1.17rem;
 	line-height: 200%;
 	letter-spacing: 2.4px;
 	padding: 33px 0 18px 0;
+	@media (max-width: 575.98px) {
+		font-size: 1.05rem;
+		line-height: 2.35rem;
+		text-align: center;
+	}
 }
 h3 {
 	font-size: 1.17rem;
@@ -45,6 +63,9 @@ h3 {
 	letter-spacing: 2.4px;
 	text-align: left;
 	margin: 10px 0 30px 35px;
+	@media (max-width: 991.98px) {
+		text-align: center;
+	}
 }
 h4 {
 	letter-spacing: 2.4px;
@@ -52,6 +73,11 @@ h4 {
 	padding-bottom: 42px;
 	color: #020303;
 	text-align: center;
+	@media (max-width: 575.98px) {
+		font-size: 1.17rem;
+		line-height: 2.35rem;
+		padding-bottom: 2px;
+	}
 }
 h5 {
 	color: $white-color;
@@ -75,4 +101,7 @@ li {
 	width: 227px;
 	height: 7px;
 	background-color: #edeff3;
+	@media (max-width: 991.98px) {
+		margin: 0 auto;
+	}
 }

@@ -1,5 +1,8 @@
 .specialization {
 	padding: 91px 0 0 0;
+	@media (max-width: 575.98px) {
+		padding: 0;
+	}
 
 	&__title {
 		font-size: 1.17rem;
@@ -13,5 +16,17 @@
 		max-width: 556px;
 		padding-bottom: 15px;
 		margin: 0;
+		& span {
+			@media (max-width: 575.98px) {
+				font-style: italic;
+			}
+		}
+		@media (max-width: 575.98px) {
+			max-width: 343px;
+			line-height: 1.88rem;
+		}
 	}
+}
+.container__one {
+	position: relative;
 }
